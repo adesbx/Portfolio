@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>What a cool site!!</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <a href="#section">Présentation</a>
+            <a href="#projet">Mes projets</a>
+            <a href="#footer">Me contacter</a>
+        </div>
+    </header>
+    
+    <div class="Présentation">
+        <div id="section" class="twowall">
+            <div class="whitewall"> 
+            </div>
+            <div class="bluewall">
+            </div>
+        </div>
+        <div class="textAndPhoto">
+            <img class="PhotoMoi" src="./img/Moi.jpg" alt="Arthur DBX">
+            <h1>Arthur DESBIAUX</h1>
+            <p>étudiant en 3ème année d'Informatique à l'université Claude Bernard Lyon 1.</p>
+            <div class="logo">
+                <a href="https://www.linkedin.com/in/arthurdesbiaux/" target="_blank"><img class="Linkedin" src="./img/linkedin.png"></a>
+                <a class="CV" href="./CV.pdf" target="_blank">Mon CV</a>
+                <!--<a href="https://github.com/adesbx" target="_blank"><img class="Github" src="./img/github.jpg"></a>-->
+            </div>
+        </div>
+    </div>
+
+    <div id="projet" class="projet">
+        <div class="slide">
+            <img class="Chess" src="./img/chess.png">
+            <h2>Jeu d'échec en C++</h2>
+            <p>Projet réalisé dans le cadre de ma formation avec comme condition de faire un projet en c++.</p>
+            <a href="https://github.com/adesbx/Chess-Game.git" target="_blank"><img class="Github" src="./img/github.jpg"></a>
+        </div>
+
+        <div class="slide">
+            <img class="question" src="./img/question.png">
+            <h2>A venir...</h2>
+            <p>d'autre projet seront ajouter</p>
+        </div>
+
+        <img class="arrow" src="./img/symbole-fleche-gauche-noir.png" onclick="plusSlides(-1)">
+        <img class="arrow" src="./img/symbole-fleche-droite-noir.png" onclick="plusSlides(1)">
+    </div>
+
+    <footer id="footer">
+      <div class="colonnes">
+        <div class="colonne">
+            <a>Mentions légales</a>
+            <a>Politique en matière de cookies</a>
+            <a>Politique de confidentialité</a>
+            <a>Conditions d'utilisation</a>
+        </div>
+        <div class="colonne">
+            <a>Tel</a>
+            <a>Mail</a>
+        </div>
+      </div>
+      <p>Arthur DESBIAUX, France</p>
+    </footer>
+
+</body>
+</html>
