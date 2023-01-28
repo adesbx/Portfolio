@@ -4,10 +4,9 @@ body{
     scroll-behavior: smooth;
     font-family: 'Poppins' , Georgia , sans-serif;
 }
-
+/***********************************HEADER**************************************************/
 header{
     background-color: whitesmoke;
-    text-align: center;
     padding: 20px;
     width: 100%;
     position: fixed;
@@ -61,6 +60,8 @@ header a:hover::after{
     }
 }
 
+/***********************************HOME**************************************************/
+
 .twowall{
     display: flex;
 }
@@ -79,25 +80,26 @@ header a:hover::after{
     width: 25%;
 }
 
-.Présentation{
-    display: contents;
-}
-
 .textAndPhoto{
     display: flex;
     flex-direction: column;
     text-align: center;
-    position:relative;
+    animation: apparition2 0.5s ease-out;
     height: 500px;
     width: 300px;
-    animation: apparition2 0.5s ease-out;
+    margin-left:40%;
+    bottom: 20%;
+    position:absolute;
+    overflow: hidden;
+
     /*
     border: solid black 1px;
     background-color: #f4ece6 ;*/
     /*Un peu dégueu*/
+
+    /* position:relative;
     bottom: 750px;
-    margin-left: 42%;
-    overflow: hidden;
+    */
 }
 
 @keyframes apparition2 {
@@ -178,9 +180,41 @@ header a:hover::after{
     width: 3%;
 }
 
+/***********************************APROPOS**************************************************/
+
+.Apropos{
+    margin: 0 auto;
+    padding: 180px;
+}
+
+.Apropos h1{
+    margin-bottom: 20px;
+}
+
+.Apropos p{
+    line-height: 1.8;
+}
+
+.Apropos::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.OtherImage{
+    float: left;
+    object-fit: cover;
+    height: 25%;
+    width: 25%;
+    border-radius: 25%;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0;
+}
+
+/***********************************PROJET**************************************************/
+
 .projet{
     position: relative;
-    bottom: 150px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 50px;
@@ -246,6 +280,8 @@ header a:hover::after{
     float: left;
     margin: 0 50px 20px 0;
 }
+
+/***********************************FOOTER**************************************************/
 
 footer{
     position: absolute; 
