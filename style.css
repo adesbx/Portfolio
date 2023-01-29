@@ -301,18 +301,14 @@ header a:hover::after{
     margin: 0 50px 20px 0;
 }
 /***********************************CONTACT**************************************************/
-
-.titreMidDiff{
-    font-size: 50px;
-    margin-bottom: 50px;
-}
-
-.Contact{
-    margin: 0 auto;
-    padding: 180px;
-    margin-left: 30%;
+.column{
     display: flex;
     flex-direction: column;
+}
+.Contact{
+    margin-left: 25%;
+    padding: 180px;
+    display: flex;
 }
 
 .Contact a {
@@ -323,6 +319,39 @@ header a:hover::after{
 .Mail{
     width: 30px;
 }
+
+.ContactForm{
+    margin-left: 50%;
+}
+
+.ContactFormGrill{
+    display: flex;
+    
+}
+
+.ContactElement{
+    background-color: rgb(231, 222, 222);
+    border-radius: .5rem;
+    padding: .75rem 1rem .25rem;
+}
+
+.ContactSaisie{
+    width: 100%;
+    background-color: rgb(231, 222, 222);
+    color: cornflowerblue;
+    border: none;
+    outline: none;
+    padding: .25em .5em .5em 0;
+}
+
+.ContactEnvoyer{
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 10px;
+}
+
 /***********************************FOOTER**************************************************/
 
 footer{

@@ -66,11 +66,39 @@
         <img class="arrow" src="./img/angle-right.svg" onclick="plusSlides(1)">
     </div>
     
+    <p class="titreMid">Me contacter</p>
     <div id="contact" class="Contact">
-        <p class="titreMidDiff">Me contacter</p>
-        <a href="https://www.linkedin.com/in/arthurdesbiaux/" target="_blank"><img class="Linkedin" src="./img/linkedin-alt.svg">Linkedin</a>
-        <a ><img class="Mail" src="./img/envelope.svg">Mail</a>
-        <p>arthurdbx93@gmail.com</p>
+        <div class="column">
+            <a href="https://www.linkedin.com/in/arthurdesbiaux/" target="_blank"><img class="Linkedin" src="./img/linkedin-alt.svg">Linkedin</a>
+            <a><img class="Mail" src="./img/envelope.svg">Mail</a>
+            <p>arthurdbx93@gmail.com</p>
+        </div>
+
+        <div class="column">
+            <form action="" class="ContactForm">
+                <div class="ContactFormGrill">
+                    <div class="ContactElement">
+                        <label for="" class="ContactLabel">Nom</label>
+                        <input type="text" class="ContactSaisie">
+                    </div>
+                    <div class="ContactElement">
+                        <label for="" class="ContactLabel">Mail</label>
+                        <input type="email" class="ContactSaisie">
+                    </div>
+                </div>
+                <div class="ContactElement">
+                    <label for="" class="ContactLabel">Objet</label>
+                    <input type="text" class="ContactSaisie">
+                </div>
+                <div class="ContactElement">
+                    <label for="" class="ContactLabel">Message</label>
+                    <textarea name="" id="" cols="0" rows="7" class="ContactSaisie"></textarea>
+                </div>
+
+                <a href="#" class="ContactEnvoyer">Envoyer</a>
+            </form>
+        </div>
+
     </div>
 
     <footer id="footer">
