@@ -11,7 +11,7 @@
         <div class="menu">
             <a href="#section">Présentation</a>
             <a href="#projet">Mes projets</a>
-            <a href="#footer">Me contacter</a>
+            <a href="#contact">Me contacter</a>
         </div>
     </header>
     
@@ -27,9 +27,9 @@
             <h1>Arthur DESBIAUX</h1>
             <p>étudiant en 3ème année d'Informatique à l'université Claude Bernard Lyon 1.</p>
             <div class="logo">
-                <a href="https://www.linkedin.com/in/arthurdesbiaux/" target="_blank"><img class="Linkedin" src="./img/linkedin.png"></a>
+                <a href="https://www.linkedin.com/in/arthurdesbiaux/" target="_blank"><img class="Linkedin" src="./img/linkedin-alt.svg"></a>
+                <a href="https://github.com/adesbx" target="_blank"><img class="Github" src="./img/github.svg"></a>
                 <a class="CV" href="./CV.pdf" target="_blank">Mon CV</a>
-                <!--<a href="https://github.com/adesbx" target="_blank"><img class="Github" src="./img/github.jpg"></a>-->
             </div>
         </div>
     </div>
@@ -44,9 +44,11 @@
             <br>
             N'hésité pas a me contacter
         </p>
+        <a class="toContact" href="#contact">Me contacter</a>
     </div>
 
-    <div id="projet" class="projet">
+    <p id="projet" class="titreMid">Mes projets</p>
+    <div class="projet">
         <div class="slide">
             <img class="Chess" src="./img/chess.png">
             <h2>Jeu d'échec en C++</h2>
@@ -55,29 +57,29 @@
         </div>
 
         <div class="slide">
-            <img class="question" src="./img/question.png">
+            <img class="question" src="./img/question.svg">
             <h2>A venir...</h2>
             <p>d'autre projet seront ajouter</p>
         </div>
 
-        <img class="arrow" src="./img/symbole-fleche-gauche-noir.png" onclick="plusSlides(-1)">
-        <img class="arrow" src="./img/symbole-fleche-droite-noir.png" onclick="plusSlides(1)">
+        <img class="arrow" src="./img/angle-left.svg" onclick="plusSlides(-1)">
+        <img class="arrow" src="./img/angle-right.svg" onclick="plusSlides(1)">
+    </div>
+    
+    <div id="contact" class="Contact">
+        <p class="titreMidDiff">Me contacter</p>
+        <a href="https://www.linkedin.com/in/arthurdesbiaux/" target="_blank"><img class="Linkedin" src="./img/linkedin-alt.svg">Linkedin</a>
+        <a ><img class="Mail" src="./img/envelope.svg">Mail</a>
+        <p>arthurdbx93@gmail.com</p>
     </div>
 
     <footer id="footer">
-      <div class="colonnes">
-        <div class="colonne">
-            <a>Mentions légales</a>
-            <a>Politique en matière de cookies</a>
-            <a>Politique de confidentialité</a>
-            <a>Conditions d'utilisation</a>
+        <p>Arthur DESBIAUX , France</p>
+        <div class="LogoFooter">
+            <a href="https://www.linkedin.com/in/arthurdesbiaux/" target="_blank"><img class="LinkedinFooter" src="./img/linkedin_white.svg"></a>
+            <a href="https://github.com/adesbx" target="_blank"><img class="GithubFooter" src="./img/github_white.svg"></a>
         </div>
-        <div class="colonne">
-            <a>Tel</a>
-            <a>Mail</a>
-        </div>
-      </div>
-      <p>Arthur DESBIAUX, France</p>
+        <p>Copyright © Arthur DESBIAUX. All rights reserved. </p>
     </footer>
 
 </body>
