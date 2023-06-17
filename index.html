@@ -25,7 +25,7 @@
         <div class="textAndPhoto">
             <img class="PhotoMoi" src="./img/Moi.jpg" alt="Arthur DBX">
             <h1>Arthur DESBIAUX</h1>
-            <p>étudiant en 3ème année d'Informatique à l'université Claude Bernard Lyon 1.</p>
+            <p class="CourtePrésentation">Étudiant en 3ème année d'Informatique à l'Université Claude Bernard Lyon 1.</p>
             <div class="logo">
                 <a href="https://www.linkedin.com/in/arthurdesbiaux/" target="_blank"><img class="Linkedin" src="./img/linkedin-alt.svg"></a>
                 <a href="https://github.com/adesbx" target="_blank"><img class="Github" src="./img/github.svg"></a>
@@ -36,15 +36,20 @@
     
     <div id="none" class="Apropos">
         <p class="titreMid">A propos de moi</p>
-        <img class="OtherImage" src="./img/Moi.jpg" alt="Arthur DBX">
-        <h1>Enchanté !!</h1>
-        <p>Je suis Arthur DESBIAUX , étudiant a l'université Claude Bernard Lyon 1.<br>
-            J'apprécie énormement l'Informatique mais surtout pas mal de domaine comme l'intelligence artificielle , le web et le devéloppement d'application.
-            <br>
-            <br>
-            N'hésité pas a me contacter
-        </p>
-        <a class="toContact" href="#contact">Me contacter</a>
+        <div class="AproposContenue">
+            <img class="OtherImage" src="./img/Moi.jpg" alt="Arthur DBX">
+            <div class="AproposText">
+                <h1> Bienvenue sur mon portfolio !</h1>
+                <p>Je suis Arthur DESBIAUX , étudiant a l'université Claude Bernard Lyon 1.<br>  
+                    Je suis un passionné d'informatique et je trouve un immense plaisir à créer des petits projets de jeux, d'applications mobiles et de sites internet. 
+                    L'une de mes plus grandes passions est l'intelligence artificielle (IA) et l'apprentissage automatique (machine learning). 
+                    <br>
+                    <br>
+                    N'hésité pas a me contacter
+                </p>
+                <a class="toContact" href="#contact">Me contacter</a>
+            </div>
+        </div>
     </div>
 
     <p id="projet" class="titreMid">Mes projets</p>
@@ -52,8 +57,22 @@
         <div class="slide">
             <img class="Chess" src="./img/chess.png">
             <h2>Jeu d'échec en C++</h2>
-            <p>Projet réalisé dans le cadre de ma formation avec comme condition de faire un projet en c++.</p>
+            <p>Projet réalisé dans le cadre de ma formation avec comme condition de faire un projet en c++ et SDL2.</p>
             <a href="https://github.com/adesbx/Chess-Game.git" target="_blank"><img class="Github" src="./img/github.jpg"></a>
+        </div>
+
+        <div class="slide">
+            <img class="Chess" src="./img/SiteRecco.png">
+            <h2>Recommandation de contenue</h2>
+            <p>Site web réalisé dans le cadre de ma formation , le but étant de faire de la recommandation de film.</p>
+            <a href="https://github.com/adesbx" target="_blank"><img class="Github" src="./img/github.jpg"></a>
+        </div>
+
+        <div class="slide">
+            <img class="Chess" src="./img/MoodTracker.jpg">
+            <h2>MoodTracker</h2>
+            <p>Application mobile style MoodTracker réalisé avec Flutter sur Android Studio.</p>
+            <a href="https://github.com/adesbx/MoodTracker/tree/dev" target="_blank"><img class="Github" src="./img/github.jpg"></a>
         </div>
 
         <div class="slide">
@@ -68,13 +87,21 @@
     
     <p class="titreMid">Me contacter</p>
     <div id="contact" class="Contact">
-        <div class="column">
-            <a href="https://www.linkedin.com/in/arthurdesbiaux/" target="_blank"><img class="Linkedin" src="./img/linkedin-alt.svg">Linkedin</a>
-            <a><img class="Mail" src="./img/envelope.svg">Mail</a>
-            <p>arthurdbx93@gmail.com</p>
+        <div class="columnLogo">
+            <div class="ContactContenue">
+                <a href="https://www.linkedin.com/in/arthurdesbiaux/" target="_blank"><img class="Linkedin" src="./img/linkedin-alt.svg">Linkedin</a>
+                <p>https://www.linkedin.com/in/arthurdesbiaux/</p>
+            </div>
+            <div class="ContactContenue">
+                <a><img class="Mail" src="./img/envelope.svg">Mail</a>
+                <p>arthurdbx93@gmail.com</p>
+            </div>
+            <div class="ContactContenue">
+                <a href="https://github.com/adesbx" target="_blank"><img class="Github" src="./img/github.svg">Github</a>
+                <p>@adesbx</p>
+            </div>
         </div>
-
-        <div class="column">
+        <!-- <div class="column">
             <form action="" class="ContactForm">
                 <div class="ContactFormGrill">
                     <div class="ContactElement">
@@ -97,7 +124,7 @@
 
                 <a href="#" class="ContactEnvoyer">Envoyer</a>
             </form>
-        </div>
+        </div> -->
 
     </div>
 

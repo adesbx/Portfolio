@@ -53,6 +53,10 @@ header a::after{
     transition: 0.8s;
 }
 
+header a:hover{
+    color: cornflowerblue;
+}
+
 header a:hover::after{
     left: 0%;
     width: 100%;
@@ -110,6 +114,10 @@ header a:hover::after{
     */
 }
 
+.CourtePrésentation{
+    justify-content: space-between;
+}
+
 @keyframes apparition2 {
     from{
         opacity: 0;
@@ -152,6 +160,7 @@ header a:hover::after{
     border-radius: 10px;
     width: 120px;
     margin-bottom: 10px;
+    margin-top: 10px;
     text-decoration: none;
     color: white;
     font-size: 1,5em;
@@ -191,34 +200,40 @@ header a:hover::after{
 
 /***********************************APROPOS**************************************************/
 
-.Apropos{
-    margin: 0 auto;
-    padding: 180px;
+.AproposContenue{
+    display:flex ;
+    justify-content: center;
 }
 
-.Apropos h1{
+.AproposContenue h1{
     margin-bottom: 20px;
 }
 
-.Apropos p{
+.AproposContenue p{
     line-height: 1.8;
 }
 
-.Apropos h1 ,p {
+.AproposContenue h1 ,p {
     text-align: justify;
 }
 
-.Apropos::after{
+.AproposContenue::after{
     content: "";
     display: block;
     clear: both;
 }
 
+.AproposText{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
 .OtherImage{
     float: left;
     object-fit: cover;
-    height: 25%;
-    width: 25%;
+    height: 15%;
+    width: 15%;
     border-radius: 25%;
     margin: 0 20px 5px 0;
 }
@@ -229,6 +244,7 @@ header a:hover::after{
     border-radius: 15px;
     text-decoration: none;
     padding: 10px;
+    width: 10%;
 }
 
 /***********************************PROJET**************************************************/
@@ -305,8 +321,19 @@ header a:hover::after{
     display: flex;
     flex-direction: column;
 }
+
+.columnLogo{
+    display: flex;
+    flex-direction: column;
+}
+
+.ContactContenue{
+    display: flex;
+    flex-direction: column;
+}
+
 .Contact{
-    margin-left: 25%;
+    justify-content: center;
     padding: 180px;
     display: flex;
 }
